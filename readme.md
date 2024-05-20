@@ -6,7 +6,7 @@ Some code has been referenced from LearnOpenGL.com and has been mentioned in the
 
 Animations & Player Model has been downloaded from Mixamo
 
-Floor Texture has been downloaded form FreePik.com
+Floor Texture has been downloaded from FreePik.com
 
 Coin Model has been downloaded from Free3D by moddleStudios https://free3d.com/3d-model/coin-4532.html
 
