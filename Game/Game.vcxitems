@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{55ce8979-0659-4b9d-a600-260817e1fa3f}</ItemsProjectGuid>
+    <ItemsSccProjectName />
+    <ItemsSccAuxPath />
+    <ItemsSccLocalPath />
+    <ItemsSccProvider />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\actors\floor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\actors\collectable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\procGen\proceduralGenerator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\procGen\randomName.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\gameOver\gameOverScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\actors\enemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\game\easyScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\framework\pitfallGameInstance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\character\pitfallCharacter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\actors\rope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\game\mediumScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\game\hardScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\mainMenu\mainMenuScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\scene\load\loadScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game\score\scoreManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\actors\floor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\actors\collectable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\procGen\proceduralGenerator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\procGen\randomName.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\gameOver\gameOverScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\actors\enemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\game\easyScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\framework\pitfallGameInstance.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\character\pitfallCharacter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\actors\rope.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\game\mediumScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\game\hardScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\mainMenu\mainMenuScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\scene\load\loadScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game\score\scoreManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\coin.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\crying.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\dance.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\death.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\flip.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Floor.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\idle.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\jump.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\player.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Rock.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Rock.obj" />
+    <None Include="$(MSBuildThisFileDirectory)assets\run.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\slide.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\strafeLeft.dae" />
+    <None Include="$(MSBuildThisFileDirectory)assets\strafeRight.dae" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Ch42_1001_Diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Ch42_1001_Glossiness.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Ch42_1001_Normal.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Ch42_1001_Specular.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Ch42_1002_Diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\coin-texture.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\gold.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\ground.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\textures\Rock-Texture-Surface.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\coin.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\Floor.obj" />
+  </ItemGroup>
+</Project>
